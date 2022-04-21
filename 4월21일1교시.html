@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입하기</title>
+</head>
+<body>
+    <h2>회원가입하기</h2>
+<hr/>
+
+
+
+<table border="1">
+<form action="login.pnp" method="get" target="blank">
+<tr><td colspan="2" style="text-align: center">회원가입</colspan=></tr>
+<tr><td>이름</td><td><p><input type="text" name="name"> </p></td></tr>
+<tr><td>사용자ID</td><td><p><input type="text" name="id"></p></td></tr>
+<tr><td>암호</td><td><p><input type="password" name="password"></p></td></tr>
+<tr><td>암호확인</td><td><p><input type="password" name="password" ></p></td></tr>
+<tr><td>주민등록번호</td><td><p><input type="text" size="7">-<input type="text" size="7" name="주민번호"></p></td></tr>
+<tr><td>전화번호</td><td><p><input type="text" size="3">-<input type="text" size="3">-<input type="text" size="3" name="전화번호"></p></td></tr>
+<tr><td>성별</td><td><p><input type="radio" name="sung" value="man">남자 <input type="radio" name="sung" value="girl">여자</p></td></tr>
+<tr><td>직업</td><td><P><input type="text" list="list" name="list"></td></tr>
+<tr><td>email주소</td><td><p><input type="text" name="email"></p></td></tr>
+<tr><td></td><td><p><input type="submit" value="가입신청"><input type="reset" value="취소"></p</td></tr>
+</form>
+
+
+    <datalist id="list">
+        <option value="경찰"></option>
+        <option value="의사"></option>
+        <option value="교사"></option>
+        </datalist>
+
+
+
+
+
+
+
+
+
+</table>
+
+
+    
+    
+</body>
+</html>
