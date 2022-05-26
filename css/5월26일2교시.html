@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>박스에 그림자 만들기</title>
+</head>
+<style>
+    div{
+        width: 130px;
+        height: 120px;
+        padding: 10px;
+        border: 8px solid lightgray;
+        background-image: url(../image/sky.jpg);
+        background-size: 150px 150px;
+        background-repeat: no-repeat;
+        background-position:center ;
+        margin: 20px;
+        
+
+        
+        
+        
+    }
+    p{
+        cursor: pointer;
+        border: 1px solid red;
+
+    }
+    span{
+        
+        border:1px solid blue;
+        display: block;
+        
+    }
+    .red{
+        box-shadow: 10px 10px red;
+    }
+    .l{
+        box-shadow: 10px 10px 5px skyblue;
+    }
+    .m{
+        box-shadow: 2px 2px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+        
+    }
+    #none{
+        display: none;
+    }
+    #binb{
+        display: inline-block;
+        height: 50px;
+        width: 500px;
+    }
+
+
+</style>
+<body>
+    <h3>박스에 그림자 만들기</h3>
+    <hr/>
+    <div class="red">하늘그림</div>
+    <div class="l">하늘그림</div>
+    <div class="m">하늘그림</div>
+    <p>커서모양</p>
+    <p>커서모양2</p>
+    <span>커서모양</span>
+    <span>커서모양2</span>
+    <pre>나는<p id="none">div(none)입니다.</p></pre>
+    <pre>나는<p id="binb">div(inline)</p>입니다</pre>
+    <pre>나는<p id="bl">divspan(block)</p>입니다</pre>
+    <pre>나는 <p>div</p><span>span(block)</span>입니다</pre>
+    
+</body>
+</html>
