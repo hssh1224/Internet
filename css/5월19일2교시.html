@@ -8,48 +8,53 @@
 </head>
 
 <style>
-    h2,li{ 
+    h2{ 
         color: brown;   
     }
     
-    div>div>strong{
-        background: yellow;
+    li{
+        color: brown;
     }
-    ul strong{
-        color: dodgerblue;
-    }
-    .warning{
+    h2:first-letter{
         color: red;
     }
-    body.main{
-        background: aliceblue;
+    p>strong{
+        background-color: yellow;
+        
     }
-    #list{
-        background: mistyrose;
+    a:active{
+        color: green;
     }
-    #list span{
-        color: forestgreen;
+    
+    
+    #liyellow{
+        color: green;
     }
-    h2::first-letter{
+    ul{
+        background-color: pink;
+    }
+    .blue{
+        color: blue;
+    }
+    .red{
         color: red;
     }
     li:hover{
-        background: yellowgreen;
+        background-color: greenyellow;
     }
-
     
 </style>
 
-    <body class="main">
+<body>
     <h2>Web Programming</h2>
     <hr/>
-    <div>2학기<strong>학습내용</strong>입니다</div>
-    <ul id="list">
-        <li><span>HTML5</span></li>
-        <li><strong>CSS</strong></li>
+    <p>2학기<strong>학습내용</strong>입니다</p>
+    <ul>
+        <li class="green" id="liyellow">HTML5</li>
+        <li class="blue"><strong>CSS</strong></li>
         <li><a href="https://www.naver.com" target="blank">JavaScript</a></li>
     </ul>
-    <div class="warning">60점 이하는 F!</div>
+    <p class="red">60점 이하는 F!</p>
 
 
     
